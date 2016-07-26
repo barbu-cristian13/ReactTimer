@@ -5,8 +5,11 @@
   .menu-text{
     color: $nav-text-color;
   }
-}
-.menu > .menu-text > a{
-  display: inline;
-  padding: 0 0 0 5px;
+  .menu > .menu-text > a{
+    display: inline;
+    padding: 0 0 0 5px;
+  }
+  .active-link {
+    font-weight: bold;
+  }
 }
